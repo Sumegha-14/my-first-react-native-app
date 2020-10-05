@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Text, View, StyleSheet ,Image,TouchableOpacity} from 'react-native';
-import Constants from 'expo-constants';
+import '../css/cardsGrid.css';
 
 export default class Card extends React.PureComponent {
   render(){
